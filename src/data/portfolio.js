@@ -2,7 +2,7 @@
 export const PORTFOLIO_DATA = {
   name: 'Naveen Boddepalli',
   role: 'Full-Stack Developer & ML/AI Engineer',
-  tagline: 'Year 3 B.Tech CS @ VIT Vellore · Building intelligent, scalable, and resilient systems from 0 to 1.',
+  tagline: 'Year 3 B.Tech CS @ VIT Vellore. I build things that work—from file-sharing systems to in-browser ML tools.',
   github: 'https://github.com/Naveen-Boddepalli',
   linkedin: 'https://www.linkedin.com/in/naveen-boddepalli-689056327/',
   email: '1234naveenboddepalli@gmail.com',

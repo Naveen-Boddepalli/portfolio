@@ -18,7 +18,7 @@ function LoadingScreen({ onDone }) {
   return (
     <div className="loading-screen" role="status" aria-live="polite">
       <div className="loading-laser" aria-hidden="true" />
-      <p className="loading-text">Initializing Naveen's Portfolio...</p>
+      <p className="loading-text">Loading...</p>
       <div className="loading-bar" aria-hidden="true">
         <div className="loading-bar-fill" />
       </div>
@@ -186,7 +186,7 @@ export default function App() {
 
             <footer className="footer" role="contentinfo">
               <p className="footer-text">
-                Built by Naveen Boddepalli · Refractive Prism Portfolio ·{' '}
+                Built by Naveen Boddepalli ·{' '}
                 <span style={{
                   background: 'linear-gradient(90deg,#FF453A,#FF9F0A,#FFD60A,#32D74B,#64D2FF,#0A84FF,#BF5AF2)',
                   WebkitBackgroundClip: 'text',
