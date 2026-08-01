@@ -129,6 +129,7 @@ body {
   pointer-events: all;
   /* Frosted nav bar */
   background: rgba(0,0,0,0.5);
+  -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(255,255,255,0.06);
 }
@@ -183,8 +184,8 @@ body {
    ============================================================ */
 .glass-panel {
   background: rgba(0, 0, 6, 0.72);
-  backdrop-filter: var(--blur-panel);
   -webkit-backdrop-filter: var(--blur-panel);
+  backdrop-filter: var(--blur-panel);
   border: 1px solid rgba(255,255,255,0.09);
   border-radius: var(--radius-lg);
   padding: 36px 40px;
@@ -206,8 +207,8 @@ body {
   max-width: 520px;
   /* Subtle text shadow panel */
   background: rgba(0,0,6,0.60);
-  backdrop-filter: blur(18px) saturate(120%);
   -webkit-backdrop-filter: blur(18px) saturate(120%);
+  backdrop-filter: blur(18px) saturate(120%);
   border: 1px solid rgba(255,255,255,0.07);
   border-radius: var(--radius-lg);
   padding: 40px 44px;
@@ -415,8 +416,8 @@ body {
   max-width: 440px;
   pointer-events: all;
   background: rgba(0,0,6,0.72);
-  backdrop-filter: var(--blur-panel);
   -webkit-backdrop-filter: var(--blur-panel);
+  backdrop-filter: var(--blur-panel);
   border: none;
   border-left: 3px solid var(--clr-orange);
   border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
@@ -455,8 +456,8 @@ body {
   max-width: 800px;
   pointer-events: all;
   background: rgba(0,0,6,0.72);
-  backdrop-filter: var(--blur-panel);
   -webkit-backdrop-filter: var(--blur-panel);
+  backdrop-filter: var(--blur-panel);
   border: none;
   border-bottom: 3px solid var(--clr-blue);
   border-radius: var(--radius-lg) var(--radius-lg) 0 0;
@@ -538,8 +539,8 @@ body {
   max-width: 480px;
   pointer-events: all;
   background: rgba(0,0,6,0.72);
-  backdrop-filter: var(--blur-panel);
   -webkit-backdrop-filter: var(--blur-panel);
+  backdrop-filter: var(--blur-panel);
   border: none;
   border-right: 3px solid var(--clr-violet);
   border-radius: var(--radius-lg) 0 0 var(--radius-lg);
@@ -591,8 +592,8 @@ body {
   width: 100%;
   max-width: 560px;
   background: rgba(0,0,6,0.72);
-  backdrop-filter: var(--blur-panel);
   -webkit-backdrop-filter: var(--blur-panel);
+  backdrop-filter: var(--blur-panel);
   border: none;
   border-top: 3px solid var(--clr-green);
   border-radius: 0 0 var(--radius-lg) var(--radius-lg);
@@ -646,8 +647,8 @@ body {
   pointer-events: all;
   max-width: 520px;
   background: rgba(0,0,6,0.72);
-  backdrop-filter: var(--blur-panel);
   -webkit-backdrop-filter: var(--blur-panel);
+  backdrop-filter: var(--blur-panel);
   border: none;
   border-bottom: 3px solid var(--clr-yellow);
   border-radius: var(--radius-lg) var(--radius-lg) 0 0;
